@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jmeterTestPlan version="1.2" properties="5.0" jmeter="5.3">
+<jmeterTestPlan version="1.2" properties="5.0" jmeter="5.4">
   <hashTree>
     <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="Test Plan" enabled="true">
       <stringProp name="TestPlan.comments"></stringProp>
@@ -113,12 +113,12 @@
         </HTTPSamplerProxy>
         <hashTree/>
         <ThroughputController guiclass="ThroughputControllerGui" testclass="ThroughputController" testname="Throughput Controller" enabled="true">
-          <intProp name="ThroughputController.style">0</intProp>
+          <intProp name="ThroughputController.style">1</intProp>
           <boolProp name="ThroughputController.perThread">true</boolProp>
           <intProp name="ThroughputController.maxThroughput">2000</intProp>
           <FloatProperty>
             <name>ThroughputController.percentThroughput</name>
-            <value>75.0</value>
+            <value>25.0</value>
             <savedValue>0.0</savedValue>
           </FloatProperty>
         </ThroughputController>
